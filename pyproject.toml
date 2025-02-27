@@ -1,0 +1,16 @@
+[project]
+name = "practical1"
+version = "0.1.0"
+description = "Week 1 Practical for CSSE6400"
+authors = [
+    {name = "Alexander Smith"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+flask = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

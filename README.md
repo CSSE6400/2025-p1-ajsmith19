@@ -8,5 +8,11 @@ Please see the [instructions](https://csse6400.uqcloud.net/practicals/week01.pdf
 There are [resources](https://www.makeareadme.com) available to help you write a good README file.
 
 ## Running the API
+To install flask, run:
+poetry add flask
+
+If flask needs updating, simply run (this will generate the poetry.lock file):
+poetry update flask
+
 To run the API on port 6400, run on a terminal:
 poetry run flask --app todo run -p 6400
